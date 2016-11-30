@@ -28,7 +28,7 @@
 <!-- Logout:  -->
 <% if session[:user_id] %>
   <span>Hello, <%= current_user.full_name %>!</span>
-  <br><br>x`
+  <br><br>
   <div id="logout-form-div">
     <form method="post" id="logout-form" action="/session">
       <input type="hidden" name="_method" value="delete">
